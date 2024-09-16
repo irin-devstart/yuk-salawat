@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Yuk Salawat",
+    "slug": "yuk-salawat",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "android": {
+      "package": "com.mrsl.yuksalawat",
+      "permissions": [
+        "VIBRATE"
+      ]
+    },
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#3c91de"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mrsl.yuksalawat"
+    }
+  }
+}
